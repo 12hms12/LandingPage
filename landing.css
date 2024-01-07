@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    display: flex;
+    color: aliceblue;
+    background-color: #1f2937;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    float: right;
+    margin-right: 50px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: aliceblue   ;
+    text-decoration: none;
+}
+
+#left_heading{
+    display: flex;
+    margin-left: 40px;
+    flex: 1;
+}
+
+.top_body{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #1f2937;
+    background-color: aliceblue;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#top_txt{
+    height: 300px;
+    width: 300px;
+    font-size: larger;
+}
+
+button{
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1f2937;
+    background-color: aliceblue;
+    font-weight: bolder;
+    border-radius: 15% ;
+}
+
+#ali{
+    height: 400px;
+    width: auto;
+    border-radius: 5%;
+}
+
+.main_info{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: aliceblue;
+    background-color: #1f2937;
+    padding: 0;
+    height: 600px;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#main_info_heading{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+#beaded,
+#pvc,
+#heavy,
+#freestyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 200px; /* Adjust the width as needed */
+}
+
+#beaded img,
+#pvc img,
+#heavy img,
+#freestyle img {
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+.quote{
+    background-color: aliceblue;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    height: 50px;
+    font-size: larger;
+    
+}
+
+
+.footer{
+    background-color: aliceblue;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
